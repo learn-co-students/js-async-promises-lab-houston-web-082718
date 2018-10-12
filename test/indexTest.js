@@ -65,8 +65,8 @@ describe('index', () => {
   describe('trueAndFalseButtons', function(){
     it('selects and returns the true and false buttons in the index.html file', function(){
       expect(trueAndFalseButtons().length).to.eq(2)
-      expect(trueAndFalseButtons()[0].innerText).to.eq("TRUE")
-      expect(trueAndFalseButtons()[1].innerText).to.eq("FALSE")
+      expect(trueAndFalseButtons()[0].innerText).to.eq("true")
+      expect(trueAndFalseButtons()[1].innerText).to.eq("false")
     })
   })
   describe('toggleTrueAndFalseButtons', function(){
