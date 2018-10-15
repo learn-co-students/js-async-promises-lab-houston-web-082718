@@ -71,5 +71,6 @@ function displayQuestionOnClick() {
   document.addEventListener("click", () => {
     toggleTrueAndFalseButtons();
     askQuestionThenRemoveQuestion(5000);
+    toggleTrueAndFalseButtons();
   });
 }
