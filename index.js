@@ -49,5 +49,10 @@ function toggleTrueAndFalseButtons() {
 }
 
 function displayQuestionOnClick() {
-
+  document.querySelector('.waves-effect.waves-light.btn').addEventListener('click', () => {
+    toggleTrueAndFalseButtons();
+    askQuestionThenRemoveQuestion();
+  })
 }
+
+displayQuestionOnClick();
